@@ -1,1 +1,1 @@
-# Modification_of_TALYS_for_TMC_simulation
+# Modification of TALYS files for TMC simulation.

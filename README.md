@@ -21,7 +21,7 @@ The modifications in this repository were made for TALYS version 1.96. TALYS is 
 
 ## Overview of file modifications.
 
-There is a call chain in TALYS for retrieving a file name and in total, there are six TALYS source files that must be modified in order to make TALYS use a file specified by the user instead of the normal files in the Y<sub>ff</sub> - file libraries. The following source files must be modified. (input7.f
+There is a call chain in TALYS for retrieving a file name and in total, there are five TALYS source files that must be modified in order to make TALYS use a file specified by the user instead of the normal files in the Y<sub>ff</sub> - file libraries. The following source files must be modified. (input7.f
 is created and added to the TALYS source files.)
 - talys.cmb
 - talysinput.f

@@ -31,10 +31,10 @@ There is a call chain in TALYS for retrieving a file name and in total, there ar
 
 In short, the modifications do the following: 
 - A new variable holding the specific file name is declared in 'talys.cmb'.
-- A new keyword for passing the specific file name through the TALYS input file is declared in 'checkkeyword.f'.
-- A call to the new subroutine 'input7' is declared in the source file 'talysinput.f'
+- A new keyword for passing the specific file name through the TALYS input file is declared in 'checkkeyword.f '.
+- A call to the new subroutine 'input7' is declared in the source file 'talysinput.f '
 - The file name is read and stored by TALYS as the value of the new keyword by the subroutine 'input7'.
-- An if-statement in 'massdis.f' checks the value of the new keyword and adds a non-default value to the file name of the file TALYS uses.
+- An if-statement in 'massdis.f ' checks the value of the new keyword and adds a non-default value to the file name of the file TALYS uses.
 
 The pdf-files included in this repository contains more detailed information about the modifications.
 

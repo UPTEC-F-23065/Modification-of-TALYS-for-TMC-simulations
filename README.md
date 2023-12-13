@@ -4,7 +4,7 @@
 ## Description.
 
 
-When using the Total Monte Carlo (TMC) method, a large number of simulations are performed using perturbed input data. The results of the simulations give an estimate of the effects of uncertainties in the input data. The TALYS software has an option called 'fymodel 4', in which TALYS uses pre-calculated fission fragment yield (Y<sub>ff</sub>) data from internal libraries. In order to make TALYS perform its simulations using perturbed input data, perturbed Y<sub>ff</sub> - files can be created and placed in said libraries. Modifications must be made to several files in the TALYS source code in order to make the TALYS code select the perturbed files instead of the unperturbed files. To distinguish the perturbed Y<sub>ff</sub> - files, a unique string is added to the file name before the suffix. The modifications are activated by entering a specially introduced keyword in the TALYS input file. If the keyword is not entered, TALYS performs normal simulations. This repository contains information about the process of implementing the necessary changes along with commented examples of all files that must be modified. The modified version of TALYS can then be used together with the Python program McPUFF found in the Github account UPTEC-F-23065. 
+When using the Total Monte Carlo (TMC) method, a large number of simulations are performed using perturbed input data. The results of the simulations give an estimate of the effects of uncertainties in the input data. The TALYS software has an option called 'fymodel 4', in which TALYS uses pre-calculated fission fragment yield (Y<sub>ff</sub>) data from internal libraries. In order to make TALYS perform its simulations using perturbed input data, perturbed Y<sub>ff</sub> - files can be created and placed in said libraries. Modifications must be made to several files in the TALYS source code in order to make the TALYS code select the perturbed files instead of the unperturbed files. To distinguish the perturbed Y<sub>ff</sub> - files, a unique string is added to the file name before the suffix. The modifications are activated by entering a specially introduced keyword in the TALYS input file. If the keyword is not entered, TALYS performs normal simulations. This repository contains information about the process of implementing the necessary changes along with commented examples of all files that must be modified. The modified version of TALYS can then be used together with the Python program McPUFF found at [McPUFF](https://github.com/UPTEC-F-23065/McPUFF.git)
 
 ## Table of contents.
 
@@ -48,7 +48,7 @@ The modifications are implemented either by re-writing the source code files men
 ## How to use the modified TALYS version for TMC simulations.
 
 
-The modified TALYS version is meant to be used together with the Python program McPUFF, found in separate repository on the GitHub account UPTEC-F-23065. McPUFF calls TALYS during its execution and the only prerequisite is that TALYS is compiled and on path.
+The modified TALYS version is meant to be used together with the Python program McPUFF, found at [McPUFF](https://github.com/UPTEC-F-23065/McPUFF.git). McPUFF calls TALYS during its execution and the only prerequisite is that TALYS is compiled and on path.
 
 
 

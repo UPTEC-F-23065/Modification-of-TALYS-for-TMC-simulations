@@ -36,7 +36,7 @@ In short, the modifications do the following:
 - The file name is read and stored by TALYS as the value of the new keyword by the subroutine ' input7 '.
 - An if-statement in ' massdis.f ' checks the value of the new keyword and adds a non-default value to the file name of the file TALYS uses.
 
-The pdf-files included in this repository contains more detailed information about the modifications.
+More detailed information about the modifications can be found in the pdf-files included in this repository.
 
 ## Installation
 

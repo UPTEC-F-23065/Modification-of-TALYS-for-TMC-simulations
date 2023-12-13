@@ -21,21 +21,21 @@ The modifications in this repository were made for TALYS version 1.96. TALYS is 
 
 ## Overview of file modifications.
 
-There is a call chain in TALYS for retrieving a file name and in total, there are five TALYS source files that must be modified in order to make TALYS use a file specified by the user instead of the normal files in the Y<sub>ff</sub> - file libraries. 
+There is a call chain in TALYS for retrieving a file name and in total, there are five TALYS source files that must be modified in order to make TALYS use a file specified by the user instead of the normal files in the Y<sub>ff</sub> - file libraries. The following source files must be modified. ('input7.f' is created using 'input1.f' as a template and added to the TALYS source files.)
+- talys.cmb
+- talysinput.f
+- input7.f
+- checkkeyword.f
+- massdis.f
 
-In short, the call chain is: 
+In short, the modifications do the following: 
 - A new variable holding the specific file name is declared in 'talys.cmb'.
 - A new keyword for passing the specific file name through the TALYS input file is declared in 'checkkeyword.f'.
 - A call to the new subroutine 'input7' is declared in the source file 'talysinput.f'
 - The file name is read and stored by TALYS as the value of the new keyword by the subroutine 'input7'.
 - An if-statement in 'massdis.f' checks the value of the new keyword and adds a non-default value to the file name of the file TALYS uses.
 
-The following source files must be modified. ('input7.f' is created using 'input1.f' as a template and added to the TALYS source files.)
-- talys.cmb
-- talysinput.f
-- input7.f
-- checkkeyword.f
-- massdis.f
+
 
   
 

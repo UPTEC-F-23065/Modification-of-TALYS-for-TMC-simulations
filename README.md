@@ -53,7 +53,8 @@ The modified TALYS version is meant to be used together with the Python program 
 ## License
 
 
-[License]
+Everything in this repository is licensed under the terms of the GNU General
+Public License, version 3. [License](https://github.com/UPTEC-F-23065/Modification_of_TALYS_for_TMC_simulation/blob/0e362615d513a9d40d9e6bad77ce465fc0009aed/LICENSE)
 
 
 

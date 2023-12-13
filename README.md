@@ -18,6 +18,7 @@ When using the Total Monte Carlo (TMC) method, a large number of simulations are
 ## Requirements.
 
 The modifications in this repository were made for TALYS version 1.96. TALYS is available for download at [TALYS](https://tendl.web.psi.ch/tendl_2021/talys.html).
+All code in this repository is meant for use with a Linux system.
 
 ## Overview of file modifications.
 
@@ -34,6 +35,20 @@ In short, the modifications do the following:
 - A call to the new subroutine 'input7' is declared in the source file 'talysinput.f'
 - The file name is read and stored by TALYS as the value of the new keyword by the subroutine 'input7'.
 - An if-statement in 'massdis.f' checks the value of the new keyword and adds a non-default value to the file name of the file TALYS uses.
+
+The pdf-files included in this repository contains more detailed information about the modifications.
+
+## Installation
+
+
+First, a copy of TALYS 1.96 is needed (see 'Requirements'). If the build of TALYS fails due to memory problems, a possible solution is described in 'Modifications_of_TALYS_file_code_build.pdf'. A modified copy of the file 'code_build.sh' is also included in this repository.
+
+The modifications are implemented either by re-writing the source code files mentioned in 'Overview of file modifications', or by replacing the source files by the '.f' files in this repository. TALYS will need to be recompiled after the source files have been altered.
+
+## How to use the modified TALYS version for TMC simulations.
+
+
+The modified TALYS version is meant to be used together with the Python program McPUFF, found in separate repository on the GitHub account UPTEC-F-23065. McPUFF calls TALYS during its execution and the only prerequisite is that TALYS is compiled and on path.
 
 
 

@@ -48,7 +48,7 @@ The modifications are implemented either by re-writing the source code files men
 ## How to use the modified TALYS version for TMC simulations.
 
 
-The modified TALYS version is meant to be used together with the Python program McPUFF, found at [McPUFF](https://github.com/UPTEC-F-23065/McPUFF.git). McPUFF calls TALYS during its execution and the only prerequisite is that the modified version of TALYS is compiled and on path.
+The modified TALYS version is meant to be used together with the Python program McPUFF, found at [McPUFF](https://github.com/UPTEC-F-23065/McPUFF.git). TALYS is called by McPUFF during its execution and the only prerequisite is that the modified version of TALYS is compiled and on path.
 
 ## License
 

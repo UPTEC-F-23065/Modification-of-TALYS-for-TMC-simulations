@@ -41,7 +41,7 @@ The pdf-files included in this repository contains more detailed information abo
 ## Installation
 
 
-First, a copy of TALYS 1.96 is needed (see 'Requirements'). If the build of TALYS fails due to memory problems, a possible solution is described in [Modifications_of_TALYS_file_code_build.pdf](https://github.com/UPTEC-F-23065/Modification_of_TALYS_for_TMC_simulation/blob/98d5790383ec52ea00d25e0fff205429880d593f/Modifications_of_TALYS_file_code_build.pdf). A modified copy of the file 'code_build.sh' is also included in this repository.
+First, a copy of TALYS 1.96 is needed (see 'Requirements'). If the build of TALYS fails due to memory problems, a possible solution is described in [Modifications_of_TALYS_file_code_build.pdf](https://github.com/UPTEC-F-23065/Modification_of_TALYS_for_TMC_simulation/blob/98d5790383ec52ea00d25e0fff205429880d593f/Modifications_of_TALYS_file_code_build.pdf). A modified copy of the shell script 'code_build.sh' is also included in this repository.
 
 The modifications are implemented either by re-writing the source code files mentioned in 'Overview of file modifications', or by replacing the source files by the '.f' files in this repository. TALYS will need to be recompiled after the source files have been altered.
 

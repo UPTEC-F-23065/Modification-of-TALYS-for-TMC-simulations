@@ -57,8 +57,9 @@ The modified TALYS version is meant to be used together with the Python program 
 [License](https://github.com/UPTEC-F-23065/Modification_of_TALYS_for_TMC_simulation/blob/0e362615d513a9d40d9e6bad77ce465fc0009aed/LICENSE)
 
 
-##References
 ## References
+
+
 <a id="1">[1]</a> 
 P. Karlsson. Total Monte Carlo of the fission model in GEF
 and its influence on the nuclear evaporation in TALYS.

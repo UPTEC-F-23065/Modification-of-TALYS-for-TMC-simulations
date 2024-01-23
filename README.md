@@ -18,7 +18,7 @@ When using the Total Monte Carlo (TMC) method, a large number of simulations are
 
 ## Requirements
 
-The modifications in this repository were made for TALYS version 1.96. TALYS is available for download at [TALYS](https://tendl.web.psi.ch/tendl_2021/talys.html) [[2]](#2).
+The modifications in this repository were made for TALYS version 1.96. TALYS [[2]](#2) is available for download at [TALYS](https://tendl.web.psi.ch/tendl_2021/talys.html).
 All code in this repository is meant for use with a Linux system.
 
 ## Overview of file modifications

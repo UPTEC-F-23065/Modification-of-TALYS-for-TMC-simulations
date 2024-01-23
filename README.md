@@ -18,7 +18,7 @@ When using the Total Monte Carlo (TMC) method, a large number of simulations are
 
 ## Requirements
 
-The modifications in this repository were made for TALYS version 1.96. TALYS is available for download at [TALYS](https://tendl.web.psi.ch/tendl_2021/talys.html).
+The modifications in this repository were made for TALYS version 1.96. TALYS is available for download at [TALYS](https://tendl.web.psi.ch/tendl_2021/talys.html) [[2]](#2).
 All code in this repository is meant for use with a Linux system.
 
 ## Overview of file modifications
@@ -66,3 +66,7 @@ and its influence on the nuclear evaporation in TALYS.
 Technical Report UPTEC F 23065, Uppsala university,
 2023, [Link](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-517598). 
 Accessed 1 January 2024.
+
+<a id="2">[2]</a>
+Arjan Koning, Stephane Hilaire, and Stephane Goriely. TALYS: modeling of nuclear reactions.
+The European physical journal. A, Hadrons and nuclei, 59(6), 2023

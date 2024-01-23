@@ -69,4 +69,4 @@ Accessed 1 January 2024.
 
 <a id="2">[2]</a>
 Arjan Koning, Stephane Hilaire, and Stephane Goriely. TALYS: modeling of nuclear reactions.
-The European physical journal. A, Hadrons and nuclei, 59(6), 2023
+The European physical journal. A, Hadrons and nuclei, 59(6), 2023.
